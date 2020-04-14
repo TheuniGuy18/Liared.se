@@ -1,1 +1,18 @@
-"hej" 
+body{
+    margin:0 auto;
+}
+
+
+.container-fluid{
+padding: 0;
+
+}
+img{
+    width: 100%;
+}
+
+ .nav-link active{ padding-right: 70px;
+
+
+
+}
