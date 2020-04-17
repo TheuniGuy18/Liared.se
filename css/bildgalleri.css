@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: forestgreen;
+    margin: 30px o 50px;
+
+}
+
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery img{
+    width: 280px;
+    padding: 5px;
+}
+
+.photoroom{
+    margin-left: 5%;
+}
