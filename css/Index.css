@@ -1,1 +1,15 @@
 
+<<<<<<< HEAD
+=======
+
+.container-fluid{
+padding: 0;
+
+}
+#main{
+    background-image: url();
+    width: 100%;
+    height: vh;
+    background-size: cover;    
+}
+>>>>>>> f12d865835b66b7b7ee15998e2ec14f6e1df89c5
