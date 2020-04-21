@@ -14,8 +14,14 @@ h1{
 }
 
 .gallery img{
+    transition: 1s;
     width: 280px;
     padding: 5px;
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
 }
 
 .photoroom{
