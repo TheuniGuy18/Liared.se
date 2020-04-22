@@ -46,9 +46,15 @@ h1{
 
 h4{
     color: white;
+    
      
      
 }
+
+h4 :hover{
+    text-decoration: none;
+}
+
 
 .arrow{
     display: flex;
