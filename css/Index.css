@@ -25,15 +25,20 @@ font-weight: 600;
 
 }
 
-.navbar ul{
-    margin-left: 40%;
-    font-size: 16px;
-    font-weight: 600;
 
-    
-    
-    
-}.nav-link{
+
+.navbar ul{    
+    font-size: 16px;
+    font-weight: 600;   
+    margin-left: 40%; 
+}
+
+
+
+
+
+
+.nav-link{
     color: white !important;
 }
 
@@ -46,15 +51,17 @@ h1{
 
 h4{
     color: white;
-    
-     
-     
+        
 }
 
-h4 :hover{
-    text-decoration: none;
-}
-
+.logga{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 300px;
+    }
 
 .arrow{
     display: flex;
