@@ -1,4 +1,6 @@
 
+
+
 body{
     background-image: url(../photos/bak.jpg);
     background-size: cover;
@@ -82,26 +84,6 @@ h4{
 
 }
 
-.gallery{
-    margin: 10px 50px;
-}
-
-.gallery img{
-    transition: 1s;
-    width: 280px;
-    padding: 5px;
-}
-
-.gallery img:hover{
-    filter: grayscale(100%);
-    transform: scale(1.1);
-}
-
-.photoroom{
-    margin-left: 5%;
-}
-
-
 
  .slide{
      display: flex;
@@ -158,4 +140,5 @@ h4{
  
 
  
+
 
