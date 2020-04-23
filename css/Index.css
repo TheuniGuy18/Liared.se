@@ -1,9 +1,12 @@
 
+
+
 body{
-    background-image: url(../photos/TrysilStor.jpg);
+    background-image: url(../photos/bak.jpg);
     background-size: cover;
     background-attachment: fixed;
-    font-family: sans-serif;
+    
+
 }
 
 .bg-light{
@@ -16,12 +19,41 @@ body{
     height: 100%;
 }
 
+.navbar-brand{
+color: white !important;
+font-size: xx-large;
+font-weight: 600;
 
-.navbar ul{
-    margin-left: 40%;
-    
+
 }
 
+
+
+.navbar ul{    
+    font-size: 16px;
+    font-weight: 600;   
+   
+}
+
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+.navbar{
+    border-bottom:1px solid #888;
+
+}
+
+
+
+
+.nav-link{
+    color: white !important;
+}
 
 h1{
     text-align: center;
@@ -30,29 +62,83 @@ h1{
 
 }
 
-.gallery{
-    margin: 10px 50px;
+h4{
+    color: white;
+        
 }
 
-.gallery img{
-    transition: 1s;
-    width: 280px;
-    padding: 5px;
+.logga{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    }
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  
+
 }
 
-.gallery img:hover{
-    filter: grayscale(100%);
-    transform: scale(1.1);
-}
 
-.photoroom{
-    margin-left: 5%;
-}
+ .slide{
+     display: flex;
+     background-color: #f7a145;
+     width: 100%;
+     height: 200px;
+     justify-content: center;
+     position: absolute;
+     bottom: 0;
 
-article{
-    width: 700px;
-    height: auto;
-    margin-left: 32%;
-}
+     
+     
+   
+     
+ }
+ .icon{
+    display: flex;
+     width: 200px;
+     height: 100%;
+     background-color: transparent;
+     justify-content: center;
+     margin-top: 50px;
+     margin-left: 85px;
+
+ }
+
+ .fa-user  {
+     color: white;
+ }
+
+ .fa-thumbs-up{
+    color: white;
+ }
+
+ .fa-images{
+    color: white;
+ }
+ 
+ .fa-hammer{
+    color: white;
+ }
+
+ .icona :hover{
+     color: grey;
+ }
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
 
 

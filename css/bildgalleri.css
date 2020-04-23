@@ -1,12 +1,15 @@
+
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none;}
 img {vertical-align: middle;
+  margin-top: 100px;
+  height: 300px;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 400px;
   position: relative;
   margin: auto;
 }
@@ -57,64 +60,49 @@ img {vertical-align: middle;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  top: 100px;
 }
 
 
 /* Fading animation */
 .fade-in {
-  animation: fadeIn ease 1.5s;
-  -webkit-animation: fadeIn ease 1.5s;
-  -moz-animation: fadeIn ease 1.5s;
-  -o-animation: fadeIn ease 1.5s;
-  -ms-animation: fadeIn ease 1.5s;
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn  1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
 }
 @keyframes fadeIn {
-  0% {
-    opacity:0.6;
-  }
-  100% {
-    opacity:1;
-  }
+  from {opacity: .1} 
+  to {opacity: 1}
 }
+
 
 @-moz-keyframes fadeIn {
-  0% {
-    opacity:0.6;
-  }
-  100% {
-    opacity:1;
-  }
+  from {opacity: .1} 
+  to {opacity: 1}
 }
+
 
 @-webkit-keyframes fadeIn {
-  0% {
-    opacity:0.6;
-  }
-  100% {
-    opacity:1;
-  }
+  from {opacity: .1} 
+  to {opacity: 1}
 }
+
 
 @-o-keyframes fadeIn {
-  0% {
-    opacity:0.6;
-  }
-  100% {
-    opacity:1;
-  }
+  from {opacity: .1} 
+  to {opacity: 1}
 }
 
+
 @-ms-keyframes fadeIn {
-  0% {
-    opacity:0.6;
-  }
-  100% {
-    opacity:1;
-  }
+  from {opacity: .1} 
+  to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+
 }
