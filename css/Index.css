@@ -5,9 +5,22 @@ body{
     background-image: url(../photos/bak.jpg);
     background-size: cover;
     background-attachment: fixed;
-    
-
 }
+
+ .logga{
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    
+   
+    
+}
+
+
+
+
+
+
 
 .bg-light{
     background-color: transparent !important;
