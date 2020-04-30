@@ -1,12 +1,11 @@
 $(document).ready(function() {
+  console.log("started");
       
-    $(".test").on("load",function() {
-    
-      $(this).animate({
-        width: "600px",
-        height: "300px", 
-         }, 1500 );
+    $(".logga").animate({
+        width: "120px",
+        height: "120px", 
+         }, 2500 );
       });
-});
+
 
 

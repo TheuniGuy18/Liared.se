@@ -7,9 +7,9 @@ body{
     background-attachment: fixed;
 }
 
- .test{
-    width: 100px;
-    height: 100px;
+ .logga{
+    width: 10px;
+    height: 10px;
     margin: 100px auto;
     display: flex;
     justify-content: center;
