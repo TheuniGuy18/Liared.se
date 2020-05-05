@@ -4,8 +4,9 @@ $(document).ready(function() {
     $(".logga").animate({
         width: "120px",
         height: "120px", 
-         }, 2500 );
+         }, 2200 );
       });
 
-
-
+   
+      
+            
