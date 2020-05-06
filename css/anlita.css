@@ -21,7 +21,7 @@ body{
 
 
 .bg-light{
-    background-color: transparent !important;
+    background-color: #f7a145 !important;
     
 }
 
@@ -91,20 +91,7 @@ h4{
 }
 
 
- .slide{
-     display: flex;
-     background-color: #f7a145;
-     width: 100%;
-     height: 200px;
-     justify-content: center;
-     position: absolute;
-     bottom: 0;
-
-     
-     
-   
-     
- }
+ 
  .icon{
     display: flex;
      width: 200px;
@@ -143,23 +130,50 @@ h4{
      margin: 0 auto;
      opacity: 50%;
  }
- h2{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    font-weight: 500; 
- }
- .anlita2{
-    height: 300px;
-    width: 800px;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
- }
+  
  
+ .anlita2{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+ }
+  
+
  
 
+h2{
+    width: 100%;
+    height: 50px;
+
+font-family: "Montserrat",sans-serif;
+font-size: 24px;
+font-weight: 700;
+font-style: normal;
+text-decoration: none;
+}
+ 
+.slide{
+    display: flex;
+    background-color: #f7a145;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    margin-top: 750px;  
+}
+.rubrik1{
+height: 500px;
+margin-top: 100px;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+
+
+}
 
  
  
