@@ -2,7 +2,7 @@
 
 
 body{
-    background-image: url(../photos/bak.jpg);
+    background-image: url(../photos/bakgrund.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -21,7 +21,7 @@ body{
 
 
 .bg-light{
-    background-color: transparent !important;
+    background-color: rgb(20, 18, 18) !important;
     
 }
 
@@ -93,7 +93,7 @@ h4{
 
  .slide{
      display: flex;
-     background-color: #f7a145;
+     background-color: rgb(20, 18, 18);
      width: 100%;
      height: 200px;
      justify-content: center;

@@ -2,7 +2,7 @@
 
 
 body{
-    background-image: url(../photos/bak.jpg);
+    background-image: url(../photos/bakgrund.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -21,7 +21,7 @@ body{
 
 
 .bg-light{
-    background-color: #f7a145 !important;
+    background-color: rgb(20, 18, 18) !important;
     
 }
 
@@ -137,44 +137,50 @@ h4{
     width: 100%;
     background-color: white;
     display: flex;
-    justify-content: center;
     margin: 0 auto;
+    margin-top: 100px;
     
  }
   
 
  
 
-h2{
-    width: 100%;
-    height: 50px;
 
-font-family: "Montserrat",sans-serif;
-font-size: 24px;
-font-weight: 700;
-font-style: normal;
-text-decoration: none;
-}
  
 .slide{
     display: flex;
-    background-color: #f7a145;
+    background-color: rgb(20, 18, 18);
     width: 100%;
     height: 200px;
     justify-content: center;
-    margin-top: 750px;  
+    margin-top: 180px;  
 }
 .rubrik1{
 height: 500px;
-margin-top: 100px;
+width: 100%;
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 13px;
 font-style: normal;
 font-weight: 400;
+margin-left:200px;
+margin-right: 200px;
+
+padding-top: 250px;
+}
+
+.parallax{
+background: url(../photos/parallax-test.jpg) ;
+background-size: cover;
+background-attachment: fixed;
+height: 500px;
 
 
 }
 
+.container2{
+width: auto;
+height: 480px;
+}
  
  
  
