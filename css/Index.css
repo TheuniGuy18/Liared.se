@@ -1,6 +1,11 @@
 
 
 
+
+
+
+
+
 body{
     background-image: url(../photos/bakgrund.jpg);
     background-size: cover;
@@ -136,6 +141,21 @@ h4{
      color: grey;
  }
 
+ .mobile{
+     display: none;
+ }
+ @media screen and (max-width : 991px) {
+.desktop{
+    display: none;
+}
+.mobile{
+    display: inline-block;
+}
+.navbar{
+    color: white;
+
+}
+}
 
  
  
