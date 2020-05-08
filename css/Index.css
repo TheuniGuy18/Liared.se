@@ -1,27 +1,40 @@
 
+
+
+
+
+
+
+
 body{
-    background-image: url(../photos/bak.jpg);
+    background-image: url(../photos/wallpaper.jpg);
     background-size: cover;
     background-attachment: fixed;
-    
-
 }
+
+ .logga{
+    width: 10px;
+    height: 10px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;  
+}
+
+
+
+
+
 
 .bg-light{
-    background-color: transparent !important;
+    background-color: rgb(20, 18, 18) !important;
     
-}
-
-.background{
-    width: 100%;
-    height: 100%;
 }
 
 .navbar-brand{
 color: white !important;
 font-size: xx-large;
 font-weight: 600;
-
+font-family: 
 
 }
 
@@ -29,7 +42,7 @@ font-weight: 600;
 
 .navbar ul{    
     font-size: 16px;
-    font-weight: 600;   
+    font-weight: 600;
    
 }
 
@@ -42,7 +55,7 @@ font-weight: 600;
 
 
 .navbar{
-    border-bottom:1px solid #888;
+    border-bottom:2px solid #888;
 
 }
 
@@ -82,30 +95,10 @@ h4{
 
 }
 
-.gallery{
-    margin: 10px 50px;
-}
-
-.gallery img{
-    transition: 1s;
-    width: 280px;
-    padding: 5px;
-}
-
-.gallery img:hover{
-    filter: grayscale(100%);
-    transform: scale(1.1);
-}
-
-.photoroom{
-    margin-left: 5%;
-}
-
-
 
  .slide{
      display: flex;
-     background-color: #f7a145;
+     background-color: rgb(20, 18, 18);
      width: 100%;
      height: 200px;
      justify-content: center;
@@ -148,14 +141,89 @@ h4{
      color: grey;
  }
 
+ .dropbtn {
+    background-color: rgb(223, 223, 223);
+    color: Black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 76px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:grey;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+ .mobilenav{
+     display: none;
+     background-color: rgb(20, 18, 18);
+     width: 100%;
+     height: 100px;
+     height: 76px;
+     border-bottom:2px solid #888;
+ }
+ 
+ @media screen and (max-width : 991px) {
+.desktop{
+    display: none;
+}
+.mobilenav{
+    display: inline-block;
+}
+.slide{
+    display: flex;
+    background-color: rgb(20, 18, 18);
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+ }
+ .icon{
+    display: flex;
+     width: 200px;
+     height: 100%;
+     background-color: transparent;
+     justify-content: center;
+     margin-top: 0px;
+     margin-left: 5px;
+
+
+ 
+}
+
 
  
  
-
-
- 
- 
  
 
  
+
 
